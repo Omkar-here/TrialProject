@@ -1,0 +1,374 @@
+*{
+margin: 0;  
+padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.column {
+  height: 100%;
+  float: left;
+}
+
+.c20 {
+    
+	width: 20%;
+	
+}
+
+.c80 {
+    
+	width: 80%;
+	background-image:linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(img1.png);
+    background-position:center;
+    background-size:cover;
+    position:relative;  
+    background-color: black;
+    border-width: thin;
+}
+
+header {
+  height:25%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+    background-position:center;
+    background-size:cover;
+    position:relative; 
+    
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    top: 0%;
+    left: 0%;
+    
+    border: 2px solid #2664F5;
+    
+    
+}
+.video{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 1% 1%;
+    align-items: center;
+}
+
+.searchbar{
+    padding-left: 95px;
+    
+}
+
+.searchsearch{
+    
+    position:relative; 
+    right:80px;
+
+    
+}
+.searchsearch:hover{
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+.left p{
+  text-align: center;
+    font-size: 30px;
+    padding: 7px;
+    
+}
+
+.college_cards{
+    text-align: left;
+}
+
+.right{
+    background-color: lightcoral;
+    border: 2px solid 	#000000;
+    border-bottom: 0px;
+    border-top: 0px;
+    height:100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.filterhead{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 65px;
+    font-weight: 800;
+    font-weight: 800;
+}
+
+.filterhead:hover{
+    color:crimson;
+    cursor:pointer;
+}
+
+.gender-btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding:30px;
+    text-align: center;
+}
+
+.gender-all{
+    
+    padding: 5px;
+    border-radius: 12px;
+    cursor: pointer;
+    border-color: black;
+    border-width: inherit;
+    transition: 0.5s;
+    
+}
+
+.gender-cat{
+    padding: 12px;
+}
+
+
+.gender-all:hover{
+    background-color: crimson
+}
+
+.campus-btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px;
+    text-align: center;
+}
+
+.campus-slider{
+    padding: 15px;
+    
+}
+
+.campus-slider-range{
+    width: 100%;
+}
+
+.student-btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px;
+    text-align: center;
+}
+
+.student-slider{
+    padding: 15px;
+    
+}
+
+.student-slider-range{
+    width: 100%;
+}
+
+
+.rating-btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px;
+    text-align: center;
+}
+
+.rating-slider{
+    padding: 15px;
+    
+}
+
+.rating-slider-range{
+    width: 100%;
+}
+
+.courses-btn-text{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+.multiselect {
+    width: 75%;
+    text-align-last: center;
+  }
+  
+
+  
+  .selectBox select {
+    
+    font-weight: bold;
+  }
+  
+  .overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  #checkboxes {
+    display: none;
+    border: 1px #dadada solid;
+  }
+  
+  #checkboxes label {
+    display: block;
+  }
+  
+  #checkboxes label:hover {
+    background-color: #1e90ff;
+  }
+
+
+
+
+
+
+
+
+
+
+.courses-checkbox{
+    width: 75%;
+    text-align-last: center;
+}
+
+.course-form{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px;
+}
+
+.courses-checkbox1{
+    padding: 15px;
+}
+
+.facilities-form{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px;
+}
+
+.facilities-checkbox1{
+    padding: 15px;
+}
+
+.facilities-checkbox2{
+    width: 75%;
+    text-align-last: center;
+}
+
+.city-form{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px;
+}
+
+.city-checkbox1{
+    padding: 15px;
+}
+
+.city-checkbox2{
+    width: 75%;
+    text-align-last: center;
+}
+
+.state-btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding:10px;
+    text-align: center;
+}
+
+.state-all{
+    
+    padding: 5px;
+    border-radius: 12px;
+    cursor: pointer;
+    border-color: black;
+    border-width: inherit;
+    margin: 2px;
+    transition: 0.5s;
+    
+}
+
+.state-cat{
+    padding: 12px;
+}
+
+
+.state-all:hover{
+    background-color: crimson
+}
+
+
+.ctype-btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px;
+    text-align: center;
+}
+
+.ctype-all{
+    
+    padding: 5px;
+    border-radius: 12px;
+    margin: 5px;
+    cursor: pointer;
+    border-color: black;
+    border-width: inherit;
+    transition: 0.5s;
+    
+}
+
+.ctype-cat{
+    padding: 12px;
+}
+
+
+.ctype-all:hover{
+    background-color: crimson
+}
+
+.average-btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px;
+    text-align: center;
+}
+
+.average-slider{
+    padding: 15px;
+    
+}
+
+.average-slider-range{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
